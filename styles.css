@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: #2b2b2b;
+
+  overflow: hidden;
+}
+
+#game-area {
+  max-height: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 4em;
+  height: 4em;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item {
+  margin: 10px;
+}
+
+.sizes {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.size {
+  width: 100px;
+  border: none;
+  height: 100px;
+  border-radius: 100px;
+  font-size: 2rem;
+  margin: 10px;
+  background-color: beige;
+}
+
+#play {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#high-score {
+  font-size: 2rem;
+}
